@@ -1,0 +1,21 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "Simple calculator app built with vanilla JavaScript",
+  "scripts": {
+    "scss": "node-sass --watch app/scss/global.scss -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designbywillj/calculator-app.git"
+  },
+  "author": "Will Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designbywillj/calculator-app/issues"
+  },
+  "homepage": "https://github.com/designbywillj/calculator-app#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
