@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple calculator app built with vanilla JavaScript",
   "scripts": {
-    "scss": "node-sass --watch app/scss/global.scss -o dist"
+    "scss": "node-sass --watch src/scss/global.scss -o css"
   },
   "repository": {
     "type": "git",

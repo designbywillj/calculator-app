@@ -6,9 +6,9 @@ Designed and developed by [Will Johnson](https://designbywillj.com)
 ## Build Setup
 
 ``` bash
-# install dependencies
-$ npm run install
+# Install dependencies
+$ npm install
 
-# watch scss
+# Watch SCSS
 $ npm run scss
 ```
