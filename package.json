@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Simple calculator app built with vanilla JavaScript",
   "scripts": {
-    "scss": "node-sass --watch src/scss/global.scss -o css"
+    "scss": "node-sass --watch src/scss/global.scss -o css",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "homepage": "https://github.com/designbywillj/calculator-app#readme",
   "dependencies": {
     "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }

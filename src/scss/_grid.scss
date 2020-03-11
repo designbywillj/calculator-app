@@ -34,6 +34,11 @@
 		font-size: 4rem;
 		text-align: right;
 		text-overflow: ellipsis;
+		background-color: transparent;
+
+		&::placeholder {
+			color: $white;
+		}
 	}
 }
 
