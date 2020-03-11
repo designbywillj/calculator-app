@@ -11,6 +11,7 @@ export default class Calculator {
         // Get list of all buttons
         const buttonNodeList = document.querySelectorAll('.btn')
         
+        // Create new button for each node
         for (let i = 0; i < buttonNodeList.length; ++i) {
             this._buttons[i] = new Button(buttonNodeList[i])
         }

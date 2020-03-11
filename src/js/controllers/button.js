@@ -9,6 +9,7 @@ export default class Button {
         this._type = button.dataset.type
         this._value = button.textContent
 
+        // Listen for button clicks
         button.addEventListener('click', () => {
             console.log(this._type)
             console.log(this._value)
